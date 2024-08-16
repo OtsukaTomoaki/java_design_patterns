@@ -4,6 +4,8 @@ import FactoryMethod.framework.Product;
 
 public class IDCard extends Product {
     private String owner;
+    private Integer serial;
+
     IDCard(String owner) {
         System.out.println(owner + "のカードを作ります。");
         this.owner = owner;
